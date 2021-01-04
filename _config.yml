@@ -38,13 +38,13 @@ fb_page_id:
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: g33kfr3ak
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
-facebook_comments:
-facebook_appid:
-facebook_comments_number: 10
+#facebook_comments:
+#facebook_appid:
+#facebook_comments_number: 10
 
 # Social icons
 github_username: 
@@ -72,10 +72,10 @@ share_twitter: true
 share_googleplus: false
 share_linkedin: true
 share_digg: false
-share_tumblr: false
-share_reddit: false
-share_stumbleupon: false
-share_hackernews: false
+#share_tumblr: false
+#share_reddit: false
+#share_stumbleupon: false
+#share_hackernews: false
 
 text:
   pagination:
