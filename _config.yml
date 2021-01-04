@@ -21,8 +21,8 @@ bing_verification:
 
 # Optional features
 animated:             true
-show_related_posts:   true
-show_post_footers:    true
+##show_related_posts:   false
+##show_post_footers:    false
 show_social_icons:    true
 ajaxify_contact_form: true
 enable_mathjax: true
@@ -47,15 +47,15 @@ post_preview_image: true
 #facebook_comments_number: 10
 
 # Social icons
-github_username: 
+github_username: DhiyaneshGeek
 reddit_username:
 bitbucket_username:
 stackoverflow_id:
-twitter_username:
+twitter_username: DhiyaneshDk
 skype_username:
 steam_nickname:
 google_plus_id:
-linkedin_username:
+linkedin_username: 
 angellist_username:
 medium_id:
 bitcoin_url:
