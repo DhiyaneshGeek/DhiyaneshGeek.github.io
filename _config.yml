@@ -6,13 +6,9 @@ description: "Cyber Security , CTF , Bug Bounties"
 baseurl:     ""
 url:         ""
 date_format: "%b %-d, %Y"
-navbar-links:
-    About Me: "about.md"
-    Blogs: 
-         - CTF: "CTF/"
-         
-# - about.md
-# - contact.html
+navbar-links:   
+ - about.md
+ - contact.html
 
 # Google services
 google_verification:
