@@ -120,6 +120,8 @@ We can see many of the API Key services are **Empty** , so now are going to fill
 
 **2 :** Login into the account and Navigate to this URL <https://sslmate.com/account/api_credentials> and you will be able to get the **API Key**
 
+Note : 100 queries an hour is **free**.
+
 <p align="center">
   <img src="/images/recon/sub9.png">
 </p>
@@ -142,7 +144,9 @@ We can see many of the API Key services are **Empty** , so now are going to fill
 
 **2 :** It will ask for Company Email , use [Temp Email](https://temp-mail.org/).
 
-**3 :** Create an account and verify the email and get the **API Key**.
+**3 :** Create an account and verify the email and get the **API Key**. 
+
+Note : It has 30-day renewal (with valid email confirmation)
 
 <p align="center">
   <img src="/images/recon/sub11.png">
@@ -151,3 +155,13 @@ We can see many of the API Key services are **Empty** , so now are going to fill
 **github** 
 
 **1 :** [Sign up](https://github.com/join) for a free account, verify the account.
+
+**2 :** Navigate to this URL <https://github.com/settings/tokens> and generate a **Personal access tokens**.
+
+<p align="center">
+  <img src="/images/recon/sub11.png">
+</p>
+
+**passivetotal** 
+
+**1 :** [Sign up](https://community.riskiq.com/home) for a free account, verify the account.
