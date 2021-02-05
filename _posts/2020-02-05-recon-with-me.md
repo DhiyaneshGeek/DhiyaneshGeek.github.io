@@ -16,6 +16,7 @@ In this blog , i will cover automating the enumeration part of reconnaissance an
   * Nuclei
   * Httpx
   * Notify
+  * Anew
   
 <p align="center">
   <img src="/images/recon/logo.png">
@@ -360,3 +361,28 @@ Scan for subdomains, check alive domains and send slack notifications use the fo
 <p align="center">
   <img src="/images/recon/notify2.png">
 </p>
+
+<p align="center">
+  <strong>Anew</strong>
+</p>
+
+Download and install this Tool using the following command
+
+`go get -u github.com/tomnomnom/anew`
+ 
+This tool is used to compare the output with old file and give us what is newly added in the file
+
+For example `domain.txt` contains a set of sub-domains and now `subs.txt` same set of subdomains but included few additional extra new subdomains.
+
+Using the following command we can compare both the files and get what is newly added.
+
+`cat subs.txt | anew domain.txt`
+
+<p align="center">
+  <img src="/images/recon/anew.png">
+</p>
+
+<p align="center">
+  <strong>Security Through Intelligent Automation</strong>
+</p>
+
