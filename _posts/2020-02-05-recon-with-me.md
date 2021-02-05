@@ -290,3 +290,50 @@ Now Let us comapare the Results **Before** and **After** Adding API Keys.
 From this we can see we got **114817** Addtional subdomains after using **Free** API Keys.
 
 Only difference is the duration that is taken during the API scan is **slow** than the normal one.
+
+<p align="center">
+  <strong>Httpx</strong>
+</p>
+
+<p align="center">
+  <img src="/images/recon/httpx1.png">
+</p>
+
+Download and install httpx using the following command
+
+`GO111MODULE=on go get -v github.com/projectdiscovery/httpx/cmd/httpx`
+
+Note: Make sure go1.14+ is installed in your system.
+
+To run this tool against all the hosts and subdomains in hosts.txt and returns URLs running HTTP webserver, use the following command
+
+`cat hosts.txt | httpx`
+
+<p align="center">
+  <img src="/images/recon/httpx2.png">
+</p>
+
+<p align="center">
+  <strong>Nuclei</strong>
+</p>
+
+<p align="center">
+  <img src="/images/recon/nuclei1.png">
+</p>
+
+Download and install nuclei using the following command
+
+`GO111MODULE=on go get -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei`
+
+Note: Make sure go1.14+ is installed in your system.
+
+Scanning for misconfiguration on given list of URLs.
+
+`nuclei -l target_urls.txt -t misconfigured-docker.yaml/`
+
+<p align="center">
+  <img src="/images/recon/nuclei2.png">
+</p>
+
+More **Nuclei Templates** can be found here <https://github.com/projectdiscovery/nuclei-templates>.
+
