@@ -386,3 +386,48 @@ Using the following command we can compare both the files and get what is newly 
   <strong>Security Through Intelligent Automation</strong>
 </p>
 
+Now by using the above all tools we are going to create a **One Linear** which can find new subdomains , check wheather it is alive or not then scan it with nuclei and send us a slack Notification of the output.
+
+**First Run** - `subfinder -silent -dL domains.txt | anew subs.txt`
+
+Note : `-dL` - File containing list of domains to enumerate.
+
+**Second Run** `while true; do subfinder -dL domains.txt -all | anew subs.txt | httpx | nuclei -t nuclei-templates/ | notify ; sleep 3600; done`
+
+The **First Run** is madatory for this process so that it will do subdomain enumeration for the list of domains that you give and save it in a `.txt` file.
+
+The **Second Run** is used to find new subdomains , check alive status , scan it with nuclei templates and notify us the output.
+
+<p align="center">
+  <img src="/images/recon/automation.png">
+</p>
+
+<p align="center">
+  <strong>Why Automation is needed in reconnaissance ?</strong>
+</p>
+
+The chances of getting **duplicates** is **very less** and you will be focusing more on **NEW subdomains **
+
+**For Example**
+
+**Real Scenario**
+
+* I got an alert at 3:54 PM Feb 05, 2020
+
+<p align="center">
+  <img src="/images/recon/slack1.png">
+</p>
+
+* I reported the vulnerability to the program at 3:59 PM Feb 05, 2020
+
+<p align="center">
+  <img src="/images/recon/slack2.png">
+</p>
+
+* Reported got Traiged and Valid !!!
+
+Huge Shout out to **Project Discovery Team** for the Amazing Tools
+
+<p align="center">
+  <img src="/images/recon/slack2.png">
+</p>
