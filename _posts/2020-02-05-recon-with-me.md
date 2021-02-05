@@ -114,5 +114,24 @@ We can see many of the API Key services are **Empty** , so now are going to fill
   <img src="/images/recon/sub8.png">
 </p>
 
+**certspotter** 
 
+**1 :** [Sign up](https://sslmate.com/signup?for=certspotter_api) for a free account.
 
+**2 :** Login into the account and Navigate to this URL <https://sslmate.com/account/api_credentials> and you will be able to get the **API Key**
+
+<p align="center">
+  <img src="/images/recon/sub9.png">
+</p>
+
+**chaos**
+
+**1 :** Navigate to this URL <https://chaos.projectdiscovery.io/#/> 
+
+**2 :** Early access is provided basis on signup and queue and Invite are send out Weekly basis.
+
+**3 :** Contributor access is Provided on the basis of **PR** that is done under `github.com/projectdiscovery/*`.
+
+<p align="center">
+  <img src="/images/recon/sub10.png">
+</p>
