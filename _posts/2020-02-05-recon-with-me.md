@@ -429,5 +429,9 @@ The chances of getting **duplicates** is **very less** and you will be focusing 
 Huge Shout out to **Project Discovery Team** for the Amazing Tools
 
 <p align="center">
-  <img src="/images/recon/slack2.png">
+  <img src="https://media.giphy.com/media/YVGeZszGz4eC4/giphy.gif">
 </p>
+
+Kudos to [tomnomnom](https://github.com/tomnomnom) for anew tool and [pry0cc](https://twitter.com/pry0cc) for the Onelinear.
+
+Thanks a lot for reading !!!.
