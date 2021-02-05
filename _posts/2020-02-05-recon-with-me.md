@@ -94,4 +94,25 @@ We can see many of the API Key services are **Empty** , so now are going to fill
   * virustotal
   * zoomeye
 
-**binaryedge**
+**binaryedge** 
+
+**1 :** [Sign up](https://app.binaryedge.io/sign-up) for a free account, verify the account.
+
+**2 :** Login into the account and Navigate to this URL <https://app.binaryedge.io/account/api> and give a name to the **TOKEN** and Click on Generate Token.
+
+<p align="center">
+  <img src="/images/recon/sub7.png">
+</p>
+
+**censys**
+
+**1 :** [Sign up](https://censys.io/register) for a free account, verify the account.
+
+**2 :** Login into the account and Navigate to this URL <https://censys.io/account/api>  and you will be able to get **API ID** and **Secret**
+
+<p align="center">
+  <img src="/images/recon/sub8.png">
+</p>
+
+
+
