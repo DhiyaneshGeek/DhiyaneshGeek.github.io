@@ -87,6 +87,7 @@ We can see many of the API Key services are **Empty** , so now are going to fill
   * chaos
   * dnsdb
   * github
+  * intelx
   * passivetotal
   * securitytrails
   * shodan
@@ -162,6 +163,24 @@ Note : It has 30-day renewal (with valid email confirmation)
   <img src="/images/recon/sub12.png">
 </p>
 
+**intelx**
+
+**1 :** [Sign up](https://github.com/join) for a free account, verify the account.
+
+**2 :** Navigate to this URL <https://intelx.io/account?tab=developer> and you will get the **API details**.
+
+Note: Trial 1 week for Free
+
+<p align="center">
+  <img src="/images/recon/sub13.png">
+</p>
+
 **passivetotal** 
 
 **1 :** [Sign up](https://community.riskiq.com/home) for a free account, verify the account.
+
+**2 :** Login into the account and Navigate to this URL <https://community.riskiq.com/settings>  and you will be able to get **KEY** and **Secret** .
+
+<p align="center">
+  <img src="/images/recon/sub14.ng">
+</p>
