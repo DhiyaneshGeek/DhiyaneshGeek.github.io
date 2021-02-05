@@ -182,5 +182,5 @@ Note: Trial 1 week for Free
 **2 :** Login into the account and Navigate to this URL <https://community.riskiq.com/settings>  and you will be able to get **KEY** and **Secret** .
 
 <p align="center">
-  <img src="/images/recon/sub14.ng">
+  <img src="/images/recon/sub14.png">
 </p>
