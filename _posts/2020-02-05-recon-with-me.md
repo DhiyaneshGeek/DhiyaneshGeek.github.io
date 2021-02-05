@@ -92,6 +92,7 @@ We can see many of the API Key services are **Empty** , so now are going to fill
   * robtex
   * securitytrails
   * shodan
+  * spyse
   * urlscan
   * virustotal
   * zoomeye
@@ -220,12 +221,22 @@ Note : Monthly Quoto is 50 API Requests.
 
 **spyse**
 
-**1 :** [Register](https://spyse.com/user/registration) for a Spyse account.
+**1 :** [Register](https://spyse.com/user/registration) for a Spyse account and verify it.
 
-**2 :** Login into the account and navigate to this URL <https://spyse.com/user> , you will get the **API Key** details.
+**2 :** Login into the account and navigate to this URL <https://spyse.com/user> , you will get the **API Token** details.
 
-Note : It has 100 API Request valid for 5 days during the Trail Period.
+Note : It has 100 API Token valid for 5 days during the Trail Period.
 
 <p align="center">
   <img src="/images/recon/sub18.png">
+</p>
+
+**urlscan** 
+
+**1 :** [Sign up](https://urlscan.io/user/signup) for a free account, verify the account.
+
+**2 :** Login into the account and Navigate to this URL <https://urlscan.io/user/profile/>  and click on Create new **API Key**.
+
+<p align="center">
+  <img src="/images/recon/sub19.png">
 </p>
