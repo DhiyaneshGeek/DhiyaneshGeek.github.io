@@ -30,13 +30,13 @@ In this blog , i will cover automating the enumeration part of reconnaissance an
   <img src="/images/recon/sub1.png">
 </p>
 
-Download and install subfinder using the following command
+* Download and install subfinder using the following command
 
 `GO111MODULE=on go get -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder`
 
 Note: Make sure go1.14+ is installed in your system.
 
-To run the tool on any of the Target website , use the following command
+* To run the tool on any of the Target website , use the following command
 
 `subfinder -d google.com`
 
@@ -44,9 +44,9 @@ To run the tool on any of the Target website , use the following command
   <img src="/images/recon/sub2.png">
 </p>
 
-It was able to fetch more than 50246+ subdomains in a short amount of time.
+* It was able to fetch more than 50246+ subdomains in a short amount of time.
 
-Then i noticed that we can use `-v` flag to see the verbose output of the sources that are used to enumerate the subdomains.
+* Then i noticed that we can use `-v` flag to see the verbose output of the sources that are used to enumerate the subdomains.
 
 `subfinder -d google.com -v`
 
@@ -54,17 +54,17 @@ Then i noticed that we can use `-v` flag to see the verbose output of the source
   <img src="/images/recon/sub3.png">
 </p>
 
-Sources like chaos,threatminer,sublist3r,alienvault ,etc,. are being used to enumerate the subdomains of the target. 
+* Sources like chaos,threatminer,sublist3r,alienvault ,etc,. are being used to enumerate the subdomains of the target. 
 
-In the Subfinder Github Repository it was mentioned that some of the services will not work until you set it up.
+* In the Subfinder Github Repository it was mentioned that some of the services will not work until you set it up.
 
 <p align="center">
   <img src="/images/recon/sub4.png">
 </p>
 
-So i started looking into it to set-up the **config-file** with the API Keys that are mentioned to see what is the **major difference in the results of subdomain**
+* So i started looking into it to set-up the **config-file** with the API Keys that are mentioned to see what is the **major difference in the results of subdomain**
 
-Navigate to the following directory
+* Navigate to the following directory
 
 `cd .config/subfinder/`
 
@@ -78,7 +78,7 @@ Navigate to the following directory
   <img src="/images/recon/sub6.png">
 </p>
 
-We can see many of the API Key services are **Empty** , so now are going to fill the necessary API Keys as source for Subdomain Enumeration.
+* We can see many of the API Key services are **Empty** , so now are going to fill the necessary API Keys as source for Subdomain Enumeration.
 
 **Note** The below following API Keys are **Free Of Cost** and has a Limited number of request in it.
 
@@ -270,7 +270,7 @@ Note : It has 100 API Token valid for 5 days during the Trail Period.
   <img src="/images/recon/sub22.png">
 </p>
 
-Now Let us compare the Results **Before** and **After** Adding API Keys.
+<p align="center">Now Let us compare the Results **Before** and **After** Adding API Keys.</p>
 
 <p align="center">
   <strong>Before API Key</strong>
@@ -288,9 +288,9 @@ Now Let us compare the Results **Before** and **After** Adding API Keys.
   <img src="/images/recon/sub23.png">
 </p>
 
-From this we can see we got **114817** Addtional subdomains after using **Free** API Keys.
+* From this we can see we got **114817** Addtional subdomains after using **Free** API Keys.
 
-Only difference is the duration that is taken during the API scan is **slow** than the normal one.
+* Only difference is the duration that is taken during the API scan is **slow** than the normal one.
 
 <p align="center">
   <strong>Httpx</strong>
@@ -300,13 +300,13 @@ Only difference is the duration that is taken during the API scan is **slow** th
   <img src="/images/recon/httpx1.png">
 </p>
 
-Download and install httpx using the following command
+* Download and install httpx using the following command
 
 `GO111MODULE=on go get -v github.com/projectdiscovery/httpx/cmd/httpx`
 
 Note: Make sure go1.14+ is installed in your system.
 
-To run this tool against all the hosts and subdomains in hosts.txt and returns URLs running HTTP webserver, use the following command
+* To run this tool against all the hosts and subdomains in hosts.txt and returns URLs running HTTP webserver, use the following command
 
 `cat hosts.txt | httpx`
 
@@ -322,13 +322,13 @@ To run this tool against all the hosts and subdomains in hosts.txt and returns U
   <img src="/images/recon/nuclei1.png">
 </p>
 
-Download and install nuclei using the following command
+* Download and install nuclei using the following command
 
 `GO111MODULE=on go get -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei`
 
 Note: Make sure go1.14+ is installed in your system.
 
-Scanning for misconfiguration on given list of URLs.
+* Scanning for misconfiguration on given list of URLs.
 
 `nuclei -l target_urls.txt -t misconfigured-docker.yaml`
 
@@ -346,13 +346,13 @@ More **Nuclei Templates** can be found here <https://github.com/projectdiscovery
   <img src="/images/recon/notify1.png">
 </p>
 
-Download and install nuclei using the following command
+* Download and install nuclei using the following command
 
 `GO111MODULE=on go get -v github.com/projectdiscovery/notify/cmd/notify`
 
 Note: Make sure go1.14+ is installed in your system.
 
-Notify also supports piping output of any tool and send it over discord/slack channel as notification.
+* Notify also supports piping output of any tool and send it over discord/slack channel as notification.
 
 Scan for subdomains, check alive domains and send slack notifications use the following command.
 
@@ -366,15 +366,15 @@ Scan for subdomains, check alive domains and send slack notifications use the fo
   <strong>Anew</strong>
 </p>
 
-Download and install this Tool using the following command
+* Download and install this Tool using the following command
 
 `go get -u github.com/tomnomnom/anew`
  
-This tool is used to compare the output with old file and give us what is newly added in the file
+* This tool is used to compare the output with old file and give us what is newly added in the file
 
 For example `domain.txt` contains a set of sub-domains and now `subs.txt` same set of subdomains but included few additional extra new subdomains.
 
-Using the following command we can compare both the files and get what is newly added.
+* Using the following command we can compare both the files and get what is newly added.
 
 `cat subs.txt | anew domain.txt`
 
@@ -386,7 +386,7 @@ Using the following command we can compare both the files and get what is newly 
   <strong>Security Through Intelligent Automation</strong>
 </p>
 
-Now by using the above all tools we are going to create a **One Linear** which can find new subdomains , check wheather it is alive or not then scan it with nuclei and send us a slack Notification of the output.
+* Now by using the above all tools we are going to create a **One Linear** which can find new subdomains , check wheather it is alive or not then scan it with nuclei and send us a slack Notification of the output.
 
 **First Run** 
 
@@ -398,9 +398,11 @@ Note : `-dL` - File containing list of domains to enumerate.
 
 `while true; do subfinder -dL domains.txt -all | anew subs.txt | httpx | nuclei -t nuclei-templates/ | notify ; sleep 3600; done`
 
-The **First Run** is madatory for this process so that it will do subdomain enumeration for the list of domains that you give and save it in a `.txt` file.
+* The **First Run** is madatory for this process so that it will do subdomain enumeration for the list of domains that you give and save it in a `.txt` file.
 
-The **Second Run** is used to find new subdomains , check alive status , scan it with nuclei templates and notify us the output.
+* The **Second Run** is used to find new subdomains , check alive status , scan it with nuclei templates and notify us the output.
+
+Note : i highly suggest to run these one linear on VPS system like Digital Ocean or AWS instance.
 
 <p align="center">
   <img src="/images/recon/automation.png">
@@ -410,7 +412,7 @@ The **Second Run** is used to find new subdomains , check alive status , scan it
   <strong>Why Automation is needed in reconnaissance ?</strong>
 </p>
 
-The chances of getting **duplicates** is **very less** and you will be focusing more on **NEW subdomains**
+* The chances of getting **duplicates** is **very less** and you will be focusing more on **NEW subdomains**
 
 **For Example**
 
