@@ -9,7 +9,7 @@ tags: [Recon, Cyber Threat Inteligence]
 
 Hi Everyone 
 
-In this blog , i will cover the automating enumeration part of reconnaissance and finding bugs using it with the following set of tools.
+In this blog , i will cover automating the enumeration part of reconnaissance and finding bugs using it with the following set of tools.
 
   * Subfinder
   * Chaos
