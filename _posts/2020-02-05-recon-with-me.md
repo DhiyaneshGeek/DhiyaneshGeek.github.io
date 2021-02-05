@@ -135,3 +135,19 @@ We can see many of the API Key services are **Empty** , so now are going to fill
 <p align="center">
   <img src="/images/recon/sub10.png">
 </p>
+
+**dnsdb**
+
+**1 :** [Sign up](https://www.farsightsecurity.com/dnsdb-community-edition/) for a free community account.
+
+**2 :** It will ask for Company Email , use [Temp Email](https://temp-mail.org/).
+
+**3 :** Create an account and verify the email and get the **API Key**.
+
+<p align="center">
+  <img src="/images/recon/sub11.png">
+</p>
+
+**github** 
+
+**1 :** [Sign up](https://github.com/join) for a free account, verify the account.
