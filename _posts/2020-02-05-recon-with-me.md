@@ -89,6 +89,7 @@ We can see many of the API Key services are **Empty** , so now are going to fill
   * github
   * intelx
   * passivetotal
+  * robtex
   * securitytrails
   * shodan
   * urlscan
@@ -183,4 +184,48 @@ Note: Trial 1 week for Free
 
 <p align="center">
   <img src="/images/recon/sub14.png">
+</p>
+
+**robtex**
+
+**1 :** Sign in using the google **Gmail Account**
+
+**2 :** Navigate to this URL <https://www.robtex.com/dashboard/> , you will get the **API-Key** details.
+
+<p align="center">
+  <img src="/images/recon/sub15.png">
+</p>
+
+**securitytrails** 
+
+**1 :** [Sign up](https://securitytrails.com/app/signup) for a free account, verify the account.
+
+**2 :** Login into the account and Navigate to this URL <https://securitytrails.com/app/account/credentials>  and you will be able to get **API Key** .
+
+Note : Monthly Quoto is 50 API Requests.
+
+<p align="center">
+  <img src="/images/recon/sub16.png">
+</p>
+
+**shodan**
+
+**1 :** [Register](https://account.shodan.io/login) for a shodan account.
+
+**2 :** Login into the account and navigate to this URL <https://account.shodan.io/> , you will get the **API Key** details.
+
+<p align="center">
+  <img src="/images/recon/sub17.png">
+</p>
+
+**spyse**
+
+**1 :** [Register](https://spyse.com/user/registration) for a Spyse account.
+
+**2 :** Login into the account and navigate to this URL <https://spyse.com/user> , you will get the **API Key** details.
+
+Note : It has 100 API Request valid for 5 days during the Trail Period.
+
+<p align="center">
+  <img src="/images/recon/sub18.png">
 </p>
