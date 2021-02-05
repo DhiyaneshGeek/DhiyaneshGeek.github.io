@@ -287,4 +287,6 @@ Now Let us comapare the Results **Before** and **After** Adding API Keys.
   <img src="/images/recon/sub23.png">
 </p>
 
-From this we can see we got **114817** Addtional subdomains after using **Free** API Keys.Only difference is the duration that is taken during the API scan is **slow** than the normal one.
+From this we can see we got **114817** Addtional subdomains after using **Free** API Keys.
+
+Only difference is the duration that is taken during the API scan is **slow** than the normal one.
