@@ -342,12 +342,21 @@ More **Nuclei Templates** can be found here <https://github.com/projectdiscovery
 </p>
 
 <p align="center">
-  <img src="/images/recon/nuclei1.png">
+  <img src="/images/recon/notify1.png">
 </p>
 
 Download and install nuclei using the following command
 
-`GO111MODULE=on go get -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei`
+`GO111MODULE=on go get -v github.com/projectdiscovery/notify/cmd/notify`
 
 Note: Make sure go1.14+ is installed in your system.
 
+Notify also supports piping output of any tool and send it over discord/slack channel as notification.
+
+Scan for subdomains, check alive domains and send slack notifications use the following command.
+
+`subfinder -d hackerone.com | httpx | notify`
+
+<p align="center">
+  <img src="/images/recon/notify2.png">
+</p>
