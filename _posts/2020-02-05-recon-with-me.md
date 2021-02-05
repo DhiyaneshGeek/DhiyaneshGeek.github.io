@@ -270,7 +270,7 @@ Note : It has 100 API Token valid for 5 days during the Trail Period.
   <img src="/images/recon/sub22.png">
 </p>
 
-Now Let us comapare the Results **Before** and **After** Adding API Keys.
+Now Let us compare the Results **Before** and **After** Adding API Keys.
 
 <p align="center">
   <strong>Before API Key</strong>
@@ -406,7 +406,7 @@ The **Second Run** is used to find new subdomains , check alive status , scan it
   <strong>Why Automation is needed in reconnaissance ?</strong>
 </p>
 
-The chances of getting **duplicates** is **very less** and you will be focusing more on **NEW subdomains **
+The chances of getting **duplicates** is **very less** and you will be focusing more on **NEW subdomains**
 
 **For Example**
 
