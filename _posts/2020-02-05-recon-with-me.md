@@ -97,7 +97,7 @@ We can see many of the API Key services are **Empty** , so now are going to fill
   * virustotal
   * zoomeye
 
-**binaryedge** 
+**Binaryedge** 
 
 **1 :** [Sign up](https://app.binaryedge.io/sign-up) for a free account, verify the account.
 
@@ -107,7 +107,7 @@ We can see many of the API Key services are **Empty** , so now are going to fill
   <img src="/images/recon/sub7.png">
 </p>
 
-**censys**
+**Censys**
 
 **1 :** [Sign up](https://censys.io/register) for a free account, verify the account.
 
@@ -117,7 +117,7 @@ We can see many of the API Key services are **Empty** , so now are going to fill
   <img src="/images/recon/sub8.png">
 </p>
 
-**certspotter** 
+**Certspotter** 
 
 **1 :** [Sign up](https://sslmate.com/signup?for=certspotter_api) for a free account.
 
@@ -129,7 +129,7 @@ Note : 100 queries an hour is **free**.
   <img src="/images/recon/sub9.png">
 </p>
 
-**chaos**
+**Chaos**
 
 **1 :** Navigate to this URL <https://chaos.projectdiscovery.io/#/> 
 
@@ -141,7 +141,7 @@ Note : 100 queries an hour is **free**.
   <img src="/images/recon/sub10.png">
 </p>
 
-**dnsdb**
+**DNSdb**
 
 **1 :** [Sign up](https://www.farsightsecurity.com/dnsdb-community-edition/) for a free community account.
 
@@ -155,7 +155,7 @@ Note : It has 30-day renewal (with valid email confirmation)
   <img src="/images/recon/sub11.png">
 </p>
 
-**github** 
+**Github** 
 
 **1 :** [Sign up](https://github.com/join) for a free account, verify the account.
 
@@ -165,7 +165,7 @@ Note : It has 30-day renewal (with valid email confirmation)
   <img src="/images/recon/sub12.png">
 </p>
 
-**intelx**
+**Intelx**
 
 **1 :** [Sign up](https://github.com/join) for a free account, verify the account.
 
@@ -177,7 +177,7 @@ Note: Trial 1 week for Free
   <img src="/images/recon/sub13.png">
 </p>
 
-**passivetotal** 
+**Passivetotal** 
 
 **1 :** [Sign up](https://community.riskiq.com/home) for a free account, verify the account.
 
@@ -187,7 +187,7 @@ Note: Trial 1 week for Free
   <img src="/images/recon/sub14.png">
 </p>
 
-**robtex**
+**Robtex**
 
 **1 :** Sign in using the google **Gmail Account**
 
@@ -197,7 +197,7 @@ Note: Trial 1 week for Free
   <img src="/images/recon/sub15.png">
 </p>
 
-**securitytrails** 
+**Security Trails** 
 
 **1 :** [Sign up](https://securitytrails.com/app/signup) for a free account, verify the account.
 
@@ -209,7 +209,7 @@ Note : Monthly Quoto is 50 API Requests.
   <img src="/images/recon/sub16.png">
 </p>
 
-**shodan**
+**Shodan**
 
 **1 :** [Register](https://account.shodan.io/login) for a shodan account.
 
@@ -219,7 +219,7 @@ Note : Monthly Quoto is 50 API Requests.
   <img src="/images/recon/sub17.png">
 </p>
 
-**spyse**
+**Spyse**
 
 **1 :** [Register](https://spyse.com/user/registration) for a Spyse account and verify it.
 
@@ -231,7 +231,7 @@ Note : It has 100 API Token valid for 5 days during the Trail Period.
   <img src="/images/recon/sub18.png">
 </p>
 
-**urlscan** 
+**UrlScan** 
 
 **1 :** [Sign up](https://urlscan.io/user/signup) for a free account, verify the account.
 
@@ -239,4 +239,24 @@ Note : It has 100 API Token valid for 5 days during the Trail Period.
 
 <p align="center">
   <img src="/images/recon/sub19.png">
+</p>
+
+**Virustotal**
+
+**1 :** [Register](https://www.virustotal.com/gui/join-us) for a Virustotal account and verify it.
+
+**2 :** Login into the account and navigate to this URL <https://www.virustotal.com/gui/user/username/apikey> , you will get the **API Key** details.
+
+<p align="center">
+  <img src="/images/recon/sub20.png">
+</p>
+
+**Zoom Eye**
+
+**1 :** [Register](https://sso.telnet404.com/accounts/register/) for a ZoomEye account and verify it.
+
+**2 :** Login into the account and navigate to this URL <https://www.zoomeye.org/profile> , you will get the **API Key** details.
+
+<p align="center">
+  <img src="/images/recon/sub21.png">
 </p>
