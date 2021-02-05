@@ -159,7 +159,7 @@ Note : It has 30-day renewal (with valid email confirmation)
 **2 :** Navigate to this URL <https://github.com/settings/tokens> and generate a **Personal access tokens**.
 
 <p align="center">
-  <img src="/images/recon/sub11.png">
+  <img src="/images/recon/sub12.png">
 </p>
 
 **passivetotal** 
