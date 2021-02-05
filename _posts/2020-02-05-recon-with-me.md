@@ -329,11 +329,25 @@ Note: Make sure go1.14+ is installed in your system.
 
 Scanning for misconfiguration on given list of URLs.
 
-`nuclei -l target_urls.txt -t misconfigured-docker.yaml/`
+`nuclei -l target_urls.txt -t misconfigured-docker.yaml`
 
 <p align="center">
   <img src="/images/recon/nuclei2.png">
 </p>
 
 More **Nuclei Templates** can be found here <https://github.com/projectdiscovery/nuclei-templates>.
+
+<p align="center">
+  <strong>Notify</strong>
+</p>
+
+<p align="center">
+  <img src="/images/recon/nuclei1.png">
+</p>
+
+Download and install nuclei using the following command
+
+`GO111MODULE=on go get -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei`
+
+Note: Make sure go1.14+ is installed in your system.
 
