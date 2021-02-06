@@ -398,7 +398,8 @@ Note : `-dL` - File containing list of domains to enumerate.
 
 `while true; do subfinder -dL domains.txt -all | anew subs.txt | httpx | nuclei -t nuclei-templates/ | notify ; sleep 3600; done`
 
-Note : `while true; do` - Keeps the script alive. `sleep 3600; done` - Run after exactly every one hour.
+Note : `while true; do` - Keeps the script alive.
+       `sleep 3600; done` - Run after exactly every one hour.
         
 * The **First Run** is madatory for this process so that it will do subdomain enumeration for the list of domains that you give and save it in a `.txt` file.
 
