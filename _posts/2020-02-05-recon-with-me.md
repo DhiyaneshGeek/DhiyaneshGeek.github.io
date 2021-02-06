@@ -432,7 +432,7 @@ Note : i highly suggest to run these one linear on VPS system like Digital Ocean
 
 * Reported got Traiged and Valid !!!
 
-Huge Shout out to **Project Discovery Team** for the Amazing Tools
+Huge Shout out to **[Project Discovery Team](https://projectdiscovery.io/)** for creating Amazing Tools
 
 <p align="center">
   <img src="https://media.giphy.com/media/YVGeZszGz4eC4/giphy.gif">
