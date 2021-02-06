@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Recon with Me !!!
-date: 2020-02-06
+date: 2021-02-06
 summary: This blog is about automating the process of continuous reconnaissance.
 categories: Bug Bounty
 tags: [Reconnaissance, Intelligent Automation, Bug Bounty]
