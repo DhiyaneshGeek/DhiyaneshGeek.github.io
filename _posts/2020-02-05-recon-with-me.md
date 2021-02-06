@@ -398,11 +398,13 @@ Note : `-dL` - File containing list of domains to enumerate.
 
 `while true; do subfinder -dL domains.txt -all | anew subs.txt | httpx | nuclei -t nuclei-templates/ | notify ; sleep 3600; done`
 
+Note : `while true; do` - Keeps the script alive. `sleep 3600; done` - Run after exactly every one hour.
+        
 * The **First Run** is madatory for this process so that it will do subdomain enumeration for the list of domains that you give and save it in a `.txt` file.
 
 * The **Second Run** is used to find new subdomains , check alive status , scan it with nuclei templates and notify us the output.
 
-Note : i highly suggest to run these one linear on VPS system like Digital Ocean or AWS instance.
+Note : I highly suggest to run these one linear on VPS system like Digital Ocean or AWS instance.
 
 <p align="center">
   <img src="/images/recon/automation.png">
