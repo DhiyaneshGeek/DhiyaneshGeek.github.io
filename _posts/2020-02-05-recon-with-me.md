@@ -346,7 +346,7 @@ More **Nuclei Templates** can be found here <https://github.com/projectdiscovery
   <img src="/images/recon/notify1.png">
 </p>
 
-* Download and install nuclei using the following command
+* Download and install notify using the following command
 
 `GO111MODULE=on go get -v github.com/projectdiscovery/notify/cmd/notify`
 
