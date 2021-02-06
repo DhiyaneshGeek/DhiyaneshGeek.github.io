@@ -421,13 +421,13 @@ Note : I highly suggest to run these one linear on VPS system like Digital Ocean
 
 **Real Scenario**
 
-* I got an alert at 3:54 PM Feb 05, 2020
+* I got an alert at 3:54 PM Feb 05, 2021
 
 <p align="center">
   <img src="/images/recon/slack1.png">
 </p>
 
-* I reported the vulnerability to the program at 3:59 PM Feb 05, 2020
+* I reported the vulnerability to the program at 3:59 PM Feb 05, 2021
 
 <p align="center">
   <img src="/images/recon/slack2.png">
