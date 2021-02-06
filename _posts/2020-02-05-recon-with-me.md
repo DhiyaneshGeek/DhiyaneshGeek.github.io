@@ -430,7 +430,7 @@ Note : i highly suggest to run these one linear on VPS system like Digital Ocean
   <img src="/images/recon/slack2.png">
 </p>
 
-* Reported got Traiged and Valid !!!
+* Reported got Triaged and Valid !!!
 
 Huge Shout out to **[Project Discovery Team](https://projectdiscovery.io/)** for creating Amazing Tools
 
