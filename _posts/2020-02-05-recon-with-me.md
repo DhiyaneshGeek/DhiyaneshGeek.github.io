@@ -368,7 +368,7 @@ cat `notify.conf` to see the config file.
 
 * From the above image , we can see **slack_webhookurl,slack_username,slack_channel,slack** are madatory to set of a slack notification using **notify**
 
-**Note** : Follow the below steps to Slack account and Generate WebhookURL.
+**Note** : Follow the below steps to create a Slack account and Generate WebhookURL.
 
 **Step 1:** [Sign Up](https://slack.com/get-started#/create) for a slack account and verify the account.
 
