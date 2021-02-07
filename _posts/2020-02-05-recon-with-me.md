@@ -34,7 +34,7 @@ In this blog , i will cover automating the enumeration part of reconnaissance an
   <img src="/images/recon/description1.png">
 </p>
 
-* Download and install subfinder using the following command
+* [Download](https://github.com/projectdiscovery/subfinder) and install subfinder using the following command
 
 `GO111MODULE=on go get -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder`
 
@@ -308,7 +308,7 @@ Note : It has 100 API Token valid for 5 days during the Trail Period.
   <img src="/images/recon/description2.png">
 </p>
 
-* Download and install httpx using the following command
+* [Download](https://github.com/projectdiscovery/httpx) and install httpx using the following command
 
 `GO111MODULE=on go get -v github.com/projectdiscovery/httpx/cmd/httpx`
 
@@ -334,7 +334,7 @@ Note: Make sure go1.14+ is installed in your system.
   <img src="/images/recon/description3.png">
 </p>
 
-* Download and install nuclei using the following command
+* [Download](https://github.com/projectdiscovery/nuclei) and install nuclei using the following command
 
 `GO111MODULE=on go get -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei`
 
@@ -362,7 +362,7 @@ More **Nuclei Templates** can be found here <https://github.com/projectdiscovery
   <img src="/images/recon/description4.png">
 </p>
 
-* Download and install notify using the following command
+* [Download](https://github.com/projectdiscovery/notify) and install notify using the following command
 
 `GO111MODULE=on go get -v github.com/projectdiscovery/notify/cmd/notify`
 
@@ -470,7 +470,7 @@ cat `notify.conf` to see the config file.
   <strong>Anew</strong>
 </p>
 
-* Download and install this Tool using the following command
+* [Download](https://github.com/tomnomnom/anew) and install this Tool using the following command
 
 `go get -u github.com/tomnomnom/anew`
  
