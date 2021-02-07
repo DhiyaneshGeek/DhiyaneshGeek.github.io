@@ -354,7 +354,95 @@ Note: Make sure go1.14+ is installed in your system.
 
 * Notify also supports piping output of any tool and send it over discord/slack channel as notification.
 
-Scan for subdomains, check alive domains and send slack notifications use the following command.
+* Now we need to configure **Slack Webhook URL** under the `notify` config file.
+
+* Navigate to the following directory.
+
+`cd .config/notify/`
+
+cat `notify.conf` to see the config file.
+
+<p align="center">
+  <img src="/images/recon/notify3.png">
+</p>
+
+* From the above image , we can see **slack_webhookurl,slack_username,slack_channel,slack** are madatory to set of a slack notification using **notify**
+
+**Note** : Follow the below steps to Slack account and Generate WebhookURL.
+
+**Step 1:** [Sign Up](https://slack.com/get-started#/create) for a slack account and verify the account.
+
+**Step 2:** During the process , it will ask you to setup the **Team Name , Channel Name , Invites**.
+
+<p align="center">
+  <img src="/images/recon/notify4.png">
+</p>
+
+**Step 3:** Navigate to this URL <https://api.slack.com/apps> and click on create app.
+
+<p align="center">
+  <img src="/images/recon/notify5.png">
+</p>
+
+**Step 4:** Enter the **App Name** and **Slack Workspace** as shown below.
+
+<p align="center">
+  <img src="/images/recon/notify6.png">
+</p>
+
+**Step 5:** Choose **Incoming Webhooks** under the App Name and set the Activate Incoming WebhookURL to **ON**.
+
+<p align="center">
+  <img src="/images/recon/notify7.png">
+</p>
+
+**Step 6:** In the bottom of the page you will be able to see **Webhook URLs for Your Workspace**, click on **Add  New Webhook to Workspace**.
+
+<p align="center">
+  <img src="/images/recon/notify8.png">
+</p>
+
+**Step 7:** It will ask you for the permission to access slack workspace and the **channel name** and click on **allow**.
+
+<p align="center">
+  <img src="/images/recon/notify9.png">
+</p>
+
+**Step 8:** Now your slack webhookurl is generated as shown below.
+
+<p align="center">
+  <img src="/images/recon/notify10.png">
+</p>
+
+* We have got the Slack WebhookURL , Slack Username and Channel name.
+
+<p align="center">
+  <img src="/images/recon/notify11.png">
+</p>
+
+* Add these into the **notify.conf** , To edit the file use the following command.
+
+`vi .config/notify/notify.conf`
+
+* Uncomment the following fields `slack_webhook_url, slack_username, slack_channel, slack` and add the necessary details.
+
+<p align="center">
+  <img src="/images/recon/notify12.png">
+</p>
+
+<p align="center">
+  <img src="/images/recon/notify13.png">
+</p>
+
+* Sample command to check the configuration works fine.
+
+`curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' https://hooks.slack.com/services/**********************************`
+
+<p align="center">
+  <img src="/images/recon/notify14.png">
+</p>
+
+* Scan for subdomains, check alive domains and send slack notifications using **notify** use the following command.
 
 `subfinder -d hackerone.com | httpx | notify`
 
