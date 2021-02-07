@@ -270,7 +270,7 @@ Note : It has 100 API Token valid for 5 days during the Trail Period.
   <img src="/images/recon/sub22.png">
 </p>
 
-<p align="center">Now Let us compare the Results **Before** and **After** Adding API Keys.</p>
+<p align="center">Now Let us compare the Results <strong>Before</strong> and <strong>After</strong> Adding API Keys.</p>
 
 <p align="center">
   <strong>Before API Key</strong>
@@ -386,7 +386,7 @@ For example `domain.txt` contains a set of sub-domains and now `subs.txt` same s
   <strong>Security Through Intelligent Automation</strong>
 </p>
 
-* Now by using the above all tools we are going to create a **One Linear** which can find new subdomains , check wheather it is alive or not then scan it with nuclei and send us a slack Notification of the output.
+* Now by using the above all tools we are going to create a **One Linear**. **subfinder** to find new subdomains , check wheather it is alive or not using **httpx** then scan it with **nuclei** and send us a slack notification of the output using **notify**.
 
 **First Run** 
 
