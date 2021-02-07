@@ -11,12 +11,12 @@ Hi Everyone
 
 In this blog , i will cover automating the enumeration part of reconnaissance and finding bugs using it with the following set of tools.
 
-  * Subfinder
-  * Chaos
-  * Nuclei
-  * Httpx
-  * Notify
-  * Anew
+  * [Subfinder](https://github.com/projectdiscovery/subfinder)
+  * [Chaos](https://github.com/projectdiscovery/chaos-client)
+  * [Nuclei](https://github.com/projectdiscovery/nuclei)
+  * [Httpx](https://github.com/projectdiscovery/httpx)
+  * [Notify](https://github.com/projectdiscovery/notify)
+  * [Anew](https://github.com/tomnomnom/anew)
   
 <p align="center">
   <img src="/images/recon/logo.png">
@@ -28,6 +28,10 @@ In this blog , i will cover automating the enumeration part of reconnaissance an
 
 <p align="center">
   <img src="/images/recon/sub1.png">
+</p>
+
+<p align="center">
+  <img src="/images/recon/description1.png">
 </p>
 
 * Download and install subfinder using the following command
@@ -300,6 +304,10 @@ Note : It has 100 API Token valid for 5 days during the Trail Period.
   <img src="/images/recon/httpx1.png">
 </p>
 
+<p align="center">
+  <img src="/images/recon/description2.png">
+</p>
+
 * Download and install httpx using the following command
 
 `GO111MODULE=on go get -v github.com/projectdiscovery/httpx/cmd/httpx`
@@ -320,6 +328,10 @@ Note: Make sure go1.14+ is installed in your system.
 
 <p align="center">
   <img src="/images/recon/nuclei1.png">
+</p>
+
+<p align="center">
+  <img src="/images/recon/description3.png">
 </p>
 
 * Download and install nuclei using the following command
@@ -344,6 +356,10 @@ More **Nuclei Templates** can be found here <https://github.com/projectdiscovery
 
 <p align="center">
   <img src="/images/recon/notify1.png">
+</p>
+
+<p align="center">
+  <img src="/images/recon/description4.png">
 </p>
 
 * Download and install notify using the following command
