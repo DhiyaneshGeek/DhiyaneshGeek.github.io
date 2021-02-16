@@ -1,0 +1,11 @@
+---
+layout: post
+title: Exploiting Out-Of-Band XXE on Wildfire
+date: 2020-02-19
+summary: Data Exfiltration using XXE via LOCK HTTP Method
+categories: Web Security
+tags: [Bugs, Write-Ups, Web Security]
+---
+
+Hi Everyone 
+
