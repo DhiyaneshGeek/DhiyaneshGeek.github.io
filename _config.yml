@@ -3,7 +3,7 @@ title:       Geek Freak
 email:       leedhiyanesh@gmail.com
 author:      Dhiyaneshwaran
 description: "Cyber Security , CTF , Bug Bounties"
-baseurl:     ""
+baseurl:     "https://dhiyaneshgeek.github.io"
 url:         ""
 date_format: "%b %-d, %Y"
 header_pages: 
@@ -21,8 +21,8 @@ bing_verification:
 
 # Optional features
 animated:             true
-##show_related_posts:   false
-##show_post_footers:    false
+show_related_posts:   true
+show_post_footers:    true
 show_social_icons:    true
 ajaxify_contact_form: true
 enable_mathjax: true
@@ -30,21 +30,6 @@ extended_fonts: true
 enable_anchorjs: true
 # Preview image for social media aka og:image and twitter:image
 post_preview_image: true
-
-# Facebook Page integration
-# (for instant articles and other stuff)
-#fb_page: false
-#fb_page_id:
-
-# Disqus post comments
-# (leave blank to disable Disqus)
-#disqus_shortname: 
-
-# Facebook Comments plugin
-# (leave blank to disable Facebook Comments, otherwise set it to true)
-#facebook_comments:
-#facebook_appid:
-#facebook_comments_number: 10
 
 # Social icons
 github_username: DhiyaneshGeek
