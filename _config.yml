@@ -3,8 +3,8 @@ title:       Geek Freak
 email:       leedhiyanesh@gmail.com
 author:      Dhiyaneshwaran
 description: "Cyber Security , CTF , Bug Bounties"
-baseurl:     "/DhiyaneshGeek.github.io"
-url:         "https://dhiyaneshgeek.github.io"
+baseurl:     ""
+url:         ""
 date_format: "%b %-d, %Y"
 header_pages: 
  - about.md
