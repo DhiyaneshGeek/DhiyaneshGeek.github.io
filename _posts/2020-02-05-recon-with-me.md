@@ -172,7 +172,7 @@ Note : It has 30-day renewal (with valid email confirmation)
 
 **Intelx**
 
-**1 :** [Sign up](https://github.com/join) for a free account, verify the account.
+**1 :** [Sign up](https://intelx.io/signup) for a free account, verify the account.
 
 **2 :** Navigate to this URL <https://intelx.io/account?tab=developer> and you will get the **API details**.
 
