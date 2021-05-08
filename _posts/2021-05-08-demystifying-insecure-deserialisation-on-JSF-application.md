@@ -174,3 +174,7 @@ Step 2: Using the following command to perform a **OOB Deserialisation** and Rea
   <img src="/images/deserialisation/desc19.png">
 </p>
 
+<p align="center">
+  <img src="/images/deserialisation/desc20.png">
+</p>
+
