@@ -148,3 +148,9 @@ Step 3: Choose Attack (Base64GZip) as shown below.
 <p align="center">
   <img src="/images/deserialisation/desc17.png">
 </p>
+
+Step 4: If the viewstate is vulnerable, it will show **Potentially VULNERABLE!!!**.
+
+<p align="center">
+  <img src="/images/deserialisation/desc18.png">
+</p>
