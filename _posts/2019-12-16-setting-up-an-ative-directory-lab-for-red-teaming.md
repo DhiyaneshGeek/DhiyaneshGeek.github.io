@@ -2,7 +2,7 @@
 layout: post
 title: Setting up an Active Directory Lab for Red Teaming
 date: 2019-12-16
-summary: This blog is just a noob guide to set up a active directory lab and then to perform a kerberos roasting attack on it from the attacker point of view.
+summary: Beginners guide to setup AD & perform Kerberoasting 
 categories: uncategorized
 tags: [Red Teaming, Active Directory]
 ---
