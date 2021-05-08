@@ -41,4 +41,12 @@ In this blog, we will see about one of the interesting vulnerability **Insecure 
   <img src="/images/deserialisation/desc3.png">
 </p>
 
+<p align="center">
+  <img src="/images/deserialisation/desc4.png">
+</p>
 
+<p align="center"> <strong>Layers in JSF Viewstate</strong></p>
+
+<p align="center">
+  <img src="/images/deserialisation/desc.png">
+</p>
