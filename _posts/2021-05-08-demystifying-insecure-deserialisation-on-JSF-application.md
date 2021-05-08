@@ -89,3 +89,9 @@ Step 1: Open the Demo URL http://127.0.0.1:8080 , give a sample input and interc
   <img src="/images/deserialisation/desc8.png">
 </p>
 
+Step 2: In the request body, it can be observed that the application uses JSF Viewstate format.
+
+<p align="center">
+  <img src="/images/deserialisation/desc9.png">
+</p>
+
