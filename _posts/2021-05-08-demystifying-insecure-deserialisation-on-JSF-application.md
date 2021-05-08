@@ -55,7 +55,7 @@ In this blog, we will see about one of the interesting vulnerability **Insecure 
 
 Step 1: Create a Docker Compose file using the following command 
 
-<p align="center"><strong>docker-compose.yml</strong></p>
+`docker-compose.yml`
 
 ```bash
 version: '2'
@@ -75,5 +75,10 @@ docker-compose up -d
   <img src="/images/deserialisation/desc6.png">
 </p>
 
+Step 3: After the application is started, visit http://127.0.0.1:8080 to see the demo page.
+
+<p align="center">
+  <img src="/images/deserialisation/desc7.png">
+</p>
 
 
