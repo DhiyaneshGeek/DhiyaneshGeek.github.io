@@ -129,6 +129,8 @@ Step 5: The final output gives some information about the java utils and compone
 
 Note: ysoserial can be downloaded from <https://jitpack.io/com/github/frohoff/ysoserial/master-SNAPSHOT/ysoserial-master-SNAPSHOT.jar>
 
+* We need to find the payload type in-order to use the ysoserial tool.
+
 <p align="center"><strong>Vulnerability Detection</strong></p>
 
 Step 1: Intercept the request of the application and send the request to **DS - Manual Testing** .
