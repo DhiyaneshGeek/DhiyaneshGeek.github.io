@@ -112,3 +112,24 @@ Step 5: The final output gives some information about the java utils and compone
 <p align="center">
   <img src="/images/deserialisation/desc12.png">
 </p>
+
+<p align="center"><strong>Burpsuite Extenders & Tools Configuration</strong></p>
+
+* Install **Java Deserialization Scanner** from **Extenders** -> **BApp Store**.
+
+<p align="center">
+  <img src="/images/deserialisation/desc13.png">
+</p>
+
+* Navigate to the **Desearilization Scanner** -> **Configurations** and configure the ysoserial.
+
+<p align="center">
+  <img src="/images/deserialisation/desc14.png">
+</p>
+
+Note: ysoserial can be downloaded from <https://jitpack.io/com/github/frohoff/ysoserial/master-SNAPSHOT/ysoserial-master-SNAPSHOT.jar>
+
+
+
+
+
