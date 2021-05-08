@@ -35,7 +35,7 @@ __Requirements for Setting Up__
 **Step 1 :** Open the Vmware Application and Click on Create a New Virtual Machine
 
 <p align="center">
-  <img src="images/activedirectory/vm1.png">
+  <img src="/images/activedirectory/vm1.png">
 </p>
 
 **Step 2 :** Choose i will install Operating System and proceed further.
