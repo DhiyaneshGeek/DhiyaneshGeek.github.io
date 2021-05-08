@@ -24,4 +24,13 @@ In this blog, we will see about one of the interesting vulnerability **Insecure 
   <img src="/images/deserialisation/desc2.png">
 </p>
 
+<p align="center"> <strong>ViewState</strong></p>
+
+* The purpose of “ViewState” is to memorize the state of the user, even after numerous HTTP queries (stateless protocol).
+* Different Types of View-state
+  1. .Net - ``___Viewstate``
+  2. JSF - ``javax.faces.Viewstate``    
+
+
+
 
