@@ -81,4 +81,11 @@ Step 3: After the application is started, visit http://127.0.0.1:8080 to see the
   <img src="/images/deserialisation/desc7.png">
 </p>
 
+<p align="center"><strong>Decoding JSF Viewstate</strong></p>
+
+Step 1: Open the Demo URL http://127.0.0.1:8080 , give a sample input and intercept the request using Client-Side Proxy such as Burpsuite as shown below.
+
+<p align="center">
+  <img src="/images/deserialisation/desc8.png">
+</p>
 
