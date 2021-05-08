@@ -121,7 +121,7 @@ Step 5: The final output gives some information about the java utils and compone
   <img src="/images/deserialisation/desc13.png">
 </p>
 
-* Navigate to the **Desearilization Scanner** -> **Configurations** and configure the ysoserial.
+* Navigate to the **Deserialization Scanner** -> **Configurations** and configure the ysoserial.
 
 <p align="center">
   <img src="/images/deserialisation/desc14.png">
@@ -129,7 +129,19 @@ Step 5: The final output gives some information about the java utils and compone
 
 Note: ysoserial can be downloaded from <https://jitpack.io/com/github/frohoff/ysoserial/master-SNAPSHOT/ysoserial-master-SNAPSHOT.jar>
 
+<p align="center"><strong>Vulnerability Detection</strong></p>
 
+Step 1: Intercept the request of the application and send the request to **DS - Manual Testing** .
+
+<p align="center">
+  <img src="/images/deserialisation/desc15.png">
+</p>
+
+Step 2: Select the **javax.faces.ViewState** values and **Set Insertion Point**.
+
+<p align="center">
+  <img src="/images/deserialisation/desc16.png">
+</p>
 
 
 
