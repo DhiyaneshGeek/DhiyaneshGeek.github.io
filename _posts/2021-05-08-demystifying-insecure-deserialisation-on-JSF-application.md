@@ -9,7 +9,7 @@ tags: [Bugs, Write-Ups, Web Security]
 
 Hi Everyone,
 
-I'm back with an another blog on interesting vulnerability **Insecure Deserialisation on JSF Applications** which occurs due to the **misconfigured viewstate**
+I'm back with an another blog on interesting vulnerability **Insecure Deserialisation on JSF Applications** which occurs due to the **Misconfigured Viewstate**
 
 <p align="center">
   <img src="/images/deserialisation/desc1.png">
@@ -17,9 +17,9 @@ I'm back with an another blog on interesting vulnerability **Insecure Deserialis
 
 <p align="center"> <strong>Difference between Serialization & Deserialization:</strong></p>
 
-* Serialization is the process of taking an object and translating it into plaintext. This plaintext can then be encrypted or signed, as well as simply used the way it is.
+* **Serialization** is the process of taking an object and translating it into plaintext. This plaintext can then be encrypted or signed, as well as simply used the way it is.
 
-* The **reverse** process is called **deserialization**, i.e. when the plaintext is converted back to an object.
+* The **reverse** process is called **Deserialization**, i.e. when the plaintext is converted back to an object.
 
 <p align="center">
   <img src="/images/deserialisation/desc2.png">
