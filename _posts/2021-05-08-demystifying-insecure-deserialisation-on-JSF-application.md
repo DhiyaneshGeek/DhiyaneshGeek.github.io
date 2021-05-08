@@ -20,6 +20,7 @@ In this blog, we will see about one of the interesting vulnerability **Insecure 
 * Serialization is the process of taking an object and translating it into plaintext. This plaintext can then be encrypted or signed, as well as simply used the way it is.
 
 * The **reverse** process is called **deserialization**, i.e. when the plaintext is converted back to an object.
+
 <p align="center">
   <img src="/images/deserialisation/desc2.png">
 </p>
@@ -35,4 +36,9 @@ In this blog, we will see about one of the interesting vulnerability **Insecure 
 
 * The "ViewState" of a page is by default, stored in a hidden form field in the web page named **javax.faces.ViewState**.
 * ViewState starts with **H4sIAAAA**, which represent the Base64Gzip.
+
+<p align="center">
+  <img src="/images/deserialisation/desc3.png">
+</p>
+
 
