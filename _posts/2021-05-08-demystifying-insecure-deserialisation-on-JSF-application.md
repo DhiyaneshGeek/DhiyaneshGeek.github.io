@@ -106,3 +106,9 @@ Step 4: First do a **URL Decode** -> **Base64 Decode** -> **GZip Decode**.
 <p align="center">
   <img src="/images/deserialisation/desc11.png">
 </p>
+
+Step 5: The final output gives some information about the java utils and components used in the application.
+
+<p align="center">
+  <img src="/images/deserialisation/desc12.png">
+</p>
