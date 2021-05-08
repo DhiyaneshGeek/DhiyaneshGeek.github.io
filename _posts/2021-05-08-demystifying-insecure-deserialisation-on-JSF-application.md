@@ -50,3 +50,30 @@ In this blog, we will see about one of the interesting vulnerability **Insecure 
 <p align="center">
   <img src="/images/deserialisation/desc5.png">
 </p>
+
+<p align="center"><strong>Environment Setup</strong></p>
+
+Step 1: Create a Docker Compose file using the following command 
+
+<p align="center"><strong>docker-compose.yml</strong></p>
+
+```bash
+version: '2'
+services:
+  web:
+    image: vulhub/mojarra:2.1.28
+    ports:
+      - "8080:8080"
+```
+
+Step 2: Execute the following command to start a JSF application which using JDK7u21 and Mojarra 2.1.28
+
+```bash
+docker-compose up -d
+```
+<p align="center">
+  <img src="/images/deserialisation/desc6.png">
+</p>
+
+
+
