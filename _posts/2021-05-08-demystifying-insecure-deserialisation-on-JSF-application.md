@@ -164,7 +164,7 @@ NOTE: There are two ways to Exploit a JSF Viewstate Deserialisation
 * Out-Of-Band 
 * Reverse Shell
 
-<p align="center"><strong>Exploitation using Burpsuite Extenders</strong></p>
+<p align="center"><strong>Exploitation using Deserialization Scanner</strong></p>
 
 Step 1: Send the vulnerable request to **DS - Exploitation Tab**
 
