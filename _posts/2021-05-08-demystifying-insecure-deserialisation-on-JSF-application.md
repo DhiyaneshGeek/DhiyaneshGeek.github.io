@@ -95,3 +95,14 @@ Step 2: In the request body, it can be observed that the application uses JSF Vi
   <img src="/images/deserialisation/desc9.png">
 </p>
 
+Step 3: Select the **javax.faces.ViewState** values , right click & send it to **Decoder** as shown below.
+
+<p align="center">
+  <img src="/images/deserialisation/desc10.png">
+</p>
+
+Step 4: First do a **URL Decode** -> **Base64 Decode** -> **GZip Decode**.
+
+<p align="center">
+  <img src="/images/deserialisation/desc11.png">
+</p>
