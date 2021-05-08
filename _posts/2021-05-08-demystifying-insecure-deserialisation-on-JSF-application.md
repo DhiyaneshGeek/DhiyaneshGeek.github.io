@@ -143,5 +143,8 @@ Step 2: Select the **javax.faces.ViewState** values and **Set Insertion Point**.
   <img src="/images/deserialisation/desc16.png">
 </p>
 
+Step 3: Choose Attack (Base64GZip) as shown below.
 
-
+<p align="center">
+  <img src="/images/deserialisation/desc17.png">
+</p>
