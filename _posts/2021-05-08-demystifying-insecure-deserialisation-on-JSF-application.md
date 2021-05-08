@@ -31,6 +31,8 @@ In this blog, we will see about one of the interesting vulnerability **Insecure 
   1. .Net - ``___Viewstate``
   2. JSF - ``javax.faces.Viewstate``    
 
+<p align="center"> <strong>Flow of JSF ViewState</strong></p>
 
-
+* The "ViewState" of a page is by default, stored in a hidden form field in the web page named **javax.faces.ViewState**.
+* ViewState starts with **H4sIAAAA**, which represent the Base64Gzip.
 
