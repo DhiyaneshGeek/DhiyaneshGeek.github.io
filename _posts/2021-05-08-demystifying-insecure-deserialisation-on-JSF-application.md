@@ -9,7 +9,7 @@ tags: [Bugs, Write-Ups, Web Security]
 
 Hi Everyone,
 
-In this blog, we will see about one of the interesting vulnerability **Insecure Deserialisation on JSF Application** which occurs due to the **misconfigured viewstate**
+I'm back with an another blog on interesting vulnerability **Insecure Deserialisation on JSF Applications** which occurs due to the **misconfigured viewstate**
 
 <p align="center">
   <img src="/images/deserialisation/desc1.png">
